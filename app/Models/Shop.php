@@ -24,7 +24,16 @@ class Shop extends Model
     protected $fillable = [
         'name',
         'location',
+        'phone',
         'is_active',
+    ];
+
+    protected $hidden = [
+        'id',
+    ];
+
+    protected $appends = [
+        'hashed_id',
     ];
 
     protected function casts(): array

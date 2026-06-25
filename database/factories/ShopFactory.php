@@ -19,6 +19,7 @@ class ShopFactory extends Factory
         return [
             'name' => fake()->company() . ' Tea Shop',
             'location' => fake()->city(),
+            'phone' => fake()->phoneNumber(),
             'is_active' => true,
         ];
     }

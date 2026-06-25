@@ -18,6 +18,7 @@ class UpdateShopRequest extends ApiFormRequest
         return [
             'name' => ['sometimes', 'string', 'max:255'],
             'location' => ['sometimes', 'string', 'max:500'],
+            'phone' => ['nullable', 'string', 'max:20'],
             'is_active' => ['boolean'],
         ];
     }

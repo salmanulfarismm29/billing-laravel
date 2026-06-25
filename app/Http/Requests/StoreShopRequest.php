@@ -18,6 +18,7 @@ class StoreShopRequest extends ApiFormRequest
         return [
             'name' => ['required', 'string', 'max:255'],
             'location' => ['required', 'string', 'max:500'],
+            'phone' => ['nullable', 'string', 'max:20'],
             'is_active' => ['boolean'],
         ];
     }
