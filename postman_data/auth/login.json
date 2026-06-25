@@ -1,0 +1,21 @@
+{
+  "request": {
+    "email": "admin@example.com",
+    "password": "password"
+  },
+  "response": {
+    "code": 200,
+    "status": "success",
+    "message": "Login successful",
+    "data": {
+      "user": {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@example.com",
+        "role": 1
+      },
+      "token": "eyJ0eXA...",
+      "refresh_token": "def50200..."
+    }
+  }
+}

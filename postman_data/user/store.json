@@ -1,0 +1,22 @@
+{
+  "request": {
+    "name": "Manager John",
+    "email": "john@example.com",
+    "password": "securepassword123",
+    "role": 2,
+    "shop_ids": [1]
+  },
+  "response": {
+    "code": 201,
+    "status": "success",
+    "message": "User created successfully",
+    "data": {
+      "id": 2,
+      "name": "Manager John",
+      "email": "john@example.com",
+      "role": 2,
+      "shop_id": 1,
+      "hashed_id": "9xkKpaO"
+    }
+  }
+}

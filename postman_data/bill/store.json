@@ -1,0 +1,38 @@
+{
+  "request": {
+    "payment_method": 1,
+    "customer_name": "Jane Doe",
+    "customer_phone": "9876543210",
+    "items": [
+      {
+        "product_id": "Lp1O3mM",
+        "quantity": 2
+      }
+    ]
+  },
+  "response": {
+    "code": 201,
+    "status": "success",
+    "message": "Bill created successfully",
+    "data": {
+      "id": 1,
+      "shop_id": 1,
+      "cashier_id": 2,
+      "total": 31.00,
+      "payment_method": 1,
+      "customer_name": "Jane Doe",
+      "customer_phone": "9876543210",
+      "qr_code": "http://localhost/receipt/mKx9LqZ",
+      "hashed_id": "mKx9LqZ",
+      "items": [
+        {
+          "id": 1,
+          "bill_id": 1,
+          "product_id": 1,
+          "quantity": 2,
+          "price_at_time_of_sale": 15.50
+        }
+      ]
+    }
+  }
+}

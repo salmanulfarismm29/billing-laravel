@@ -1,0 +1,21 @@
+{
+  "request": {
+    "name": "Masala Chai",
+    "price": 15.50,
+    "is_active": true,
+    "shop_id": 1
+  },
+  "response": {
+    "code": 201,
+    "status": "success",
+    "message": "Product created successfully",
+    "data": {
+      "id": 1,
+      "name": "Masala Chai",
+      "price": 15.50,
+      "shop_id": 1,
+      "is_active": true,
+      "hashed_id": "Lp1O3mM"
+    }
+  }
+}

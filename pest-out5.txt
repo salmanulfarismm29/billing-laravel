@@ -1,0 +1,77 @@
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true
+
+   PASS  Tests\Feature\AnalyticsTest
+  ✓ it retrieves correct dashboard analytics scoped to shop              0.47s  
+  ✓ it requires shop context for analytics                               0.04s  
+
+   PASS  Tests\Feature\AuthTest
+  ✓ it allows a user to log in with valid credentials                    0.03s  
+  ✓ it prevents an inactive user from logging in                         0.03s  
+  ✓ it rejects invalid credentials                                       0.03s  
+  ✓ it allows an authenticated user to fetch their details               0.03s  
+  ✓ it allows an authenticated user to logout                            0.03s  
+  ✓ it allows an authenticated user to refresh their token               0.03s  
+
+   PASS  Tests\Feature\BillTest
+  ✓ it allows cashier to create a bill with active products in their sh… 0.06s  
+  ✓ it increments bill_number correctly per shop                         0.06s  
+  ✓ it prevents bill creation if product is inactive                     0.04s  
+  ✓ it prevents bill creation if product belongs to another shop         0.04s  
+  ✓ it lists bills for a specific shop context                           0.06s  
+  ✓ it requires shop context to list bills unless admin                  0.05s  
+
+   PASS  Tests\Feature\BillingCalculatorTest
+  ✓ it returns price groups sorted ascending with counts when no shortc… 0.05s  
+  ✓ it bubbles selected prices to the top of the price group list        0.05s  
+  ✓ it returns empty selectedPrices before any configuration             0.04s  
+  ✓ it allows admin to save and retrieve billing calculator prices       0.05s  
+  ✓ it prevents saving more than 10 price shortcuts                      0.05s  
+  ✓ it prevents non-admins from saving billing calculator settings       0.04s  
+  ✓ it returns all active products at an exact price point               0.05s  
+  ✓ it returns empty array when no products match a price point          0.04s  
+  ✓ it does not return inactive products in by-price lookup              0.04s  
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ the application returns a successful response                        0.03s  
+
+   PASS  Tests\Feature\ProductTest
+  ✓ it lists all products globally for admin without context             0.04s  
+  ✓ it lists products scoped to shop context via header                  0.04s  
+  ✓ it allows admin to create a global product                           0.04s  
+  ✓ it allows admin to create a scoped product via header context        0.04s  
+  ✓ it prevents cashier from creating a product                          0.03s  
+  ✓ it prevents viewing a product from a different shop context          0.03s  
+  ✓ it allows updating a product                                         0.04s  
+  ✓ it allows admin to toggle active status of a product                 0.04s  
+  ✓ it allows admin to soft delete a product                             0.04s  
+
+   PASS  Tests\Feature\SettingsTest
+  ✓ it auto-creates and retrieves default settings for a shop            0.04s  
+  ✓ it allows admin to update shop settings                              0.04s  
+  ✓ it prevents non-admins from updating settings                        0.03s  
+
+   PASS  Tests\Feature\ShopTest
+  ✓ it allows admin to list shops                                        0.04s  
+  ✓ it allows admin to create a shop                                     0.04s  
+  ✓ it prevents non-admin from creating a shop                           0.03s  
+  ✓ it allows viewing a specific shop by hashed ID                       0.03s  
+  ✓ it returns 404 for invalid hashed ID                                 0.03s  
+  ✓ it allows admin to update a shop                                     0.03s  
+  ✓ it allows admin to toggle active status of a shop                    0.03s  
+  ✓ it allows admin to soft delete a shop                                0.04s  
+
+   PASS  Tests\Feature\UserTest
+  ✓ it allows admin to list users                                        0.04s  
+  ✓ it allows admin to create a user and assign to shops                 0.05s  
+  ✓ it prevents non-admin from creating a user                           0.03s  
+  ✓ it allows viewing a specific user by hashed ID                       0.04s  
+  ✓ it allows admin to update a user                                     0.04s  
+  ✓ it allows admin to toggle active status of a user                    0.04s  
+  ✓ it prevents admin from deactivating themselves                       0.03s  
+  ✓ it allows admin to delete a user                                     0.04s  
+
+  Tests:    53 passed (142 assertions)
+  Duration: 2.56s
+

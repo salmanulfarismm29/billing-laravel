@@ -1,0 +1,19 @@
+{
+  "request": {
+    "name": "Downtown Cafe",
+    "location": "123 Main Street",
+    "is_active": true
+  },
+  "response": {
+    "code": 201,
+    "status": "success",
+    "message": "Shop created successfully",
+    "data": {
+      "id": 1,
+      "name": "Downtown Cafe",
+      "location": "123 Main Street",
+      "is_active": true,
+      "hashed_id": "rJ3n82k0"
+    }
+  }
+}

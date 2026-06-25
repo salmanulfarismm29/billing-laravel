@@ -1,0 +1,823 @@
+
+  ⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯.⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯⨯
+  ⨯⨯⨯⨯⨯⨯
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AnalyticsTest…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AnalyticsTest…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\AuthTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\BillingCalcula…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ProductTest >…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\SettingsTest >…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\SettingsTest >…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\SettingsTest >…  Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\ShopTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+  ──────────────────────────────────────────────  
+   FAILED  Tests\Feature\UserTest > it…   Error   
+  Class "PDO" not found
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:127
+    123▕      * The default fetch mode of the connection.
+    124▕      *
+    125▕      * @var int
+    126▕      */
+  ➜ 127▕     protected $fetchMode = PDO::FETCH_OBJ;
+    128▕ 
+    129▕     /**
+    130▕      * The number of active transactions.
+    131▕      *
+
+
+
+  Tests:    51 failed, 1 passed (1 assertions)
+  Duration: 0.56s
+
