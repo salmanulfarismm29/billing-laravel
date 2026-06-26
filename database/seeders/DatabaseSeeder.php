@@ -47,9 +47,21 @@ class DatabaseSeeder extends Seeder
         ]);
         $cashier2->shops()->attach($shop2->id);
 
-        // Create Products
-        $productsShop1 = \App\Models\Product::factory(5)->create(['shop_id' => $shop1->id]);
-        $productsShop2 = \App\Models\Product::factory(5)->create(['shop_id' => $shop2->id]);
+        // Create Categories
+        $categoryNames = ['Drinks', 'Snacks', 'Meals', 'Desserts', 'Others'];
+        $categories = collect($categoryNames)->map(function ($name) {
+            return \App\Models\Category::create(['name' => $name]);
+        });
+
+        // Create Products with categories
+        $productsShop1 = \App\Models\Product::factory(5)->create([
+            'shop_id' => $shop1->id,
+            'category_id' => fn () => $categories->random()->id,
+        ]);
+        $productsShop2 = \App\Models\Product::factory(5)->create([
+            'shop_id' => $shop2->id,
+            'category_id' => fn () => $categories->random()->id,
+        ]);
 
         // Create Sample Bills properly using relationships to trigger Observers properly
         for ($i = 0; $i < 5; $i++) {

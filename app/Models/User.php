@@ -36,8 +36,13 @@ class User extends Authenticatable implements JWTSubject
     ];
 
     protected $hidden = [
+        'id',
         'password',
         'remember_token',
+    ];
+
+    protected $appends = [
+        'hashed_id',
     ];
 
     protected function casts(): array

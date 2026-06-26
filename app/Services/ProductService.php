@@ -12,7 +12,7 @@ class ProductService
      */
     public function getPaginated(int $shopId = null, int $perPage = 15): LengthAwarePaginator
     {
-        $query = Product::latest();
+        $query = Product::with('category')->latest();
         
         if ($shopId) {
             $query->where('shop_id', $shopId)->orWhereNull('shop_id');
@@ -34,7 +34,7 @@ class ProductService
      */
     public function getProductById(int $id): Product
     {
-        return Product::findOrFail($id);
+        return Product::with('category')->findOrFail($id);
     }
 
     /**

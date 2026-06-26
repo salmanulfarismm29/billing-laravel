@@ -6,6 +6,7 @@ use App\Http\Controllers\{
     AnalyticsController,
     AuthController,
     BillController,
+    CategoryController,
     ProductController,
     SettingsController,
     ShopController,
@@ -51,6 +52,14 @@ Route::middleware(['decrypt-request', 'throttle:api'])->prefix('v1')->group(func
             Route::post('updateuser', 'updateUser');
             Route::post('updateuserstatus', 'updateUserStatus');
             Route::post('deleteuser', 'deleteUser');
+        });
+
+        // Category Management
+        Route::controller(CategoryController::class)->prefix('category')->group(function () {
+            Route::post('getallcategories', 'getAllCategories');
+            Route::post('addcategory', 'addCategory');
+            Route::post('updatecategory', 'updateCategory');
+            Route::post('deletecategory', 'deleteCategory');
         });
 
         // Routes scoped to a specific Shop (Tenant)

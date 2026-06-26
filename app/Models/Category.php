@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Models;
 
 use App\Traits\{
@@ -10,19 +12,16 @@ use App\Traits\{
 use Illuminate\Database\Eloquent\{
     Factories\HasFactory,
     Model,
-    Relations\BelongsTo,
+    Relations\HasMany,
     SoftDeletes
 };
 
-class Product extends Model
+class Category extends Model
 {
     use HasFactory, SoftDeletes, Auditable, HasActiveScope, HasHashedId;
 
     protected $fillable = [
-        'shop_id',
-        'category_id',
         'name',
-        'price',
         'is_active',
     ];
 
@@ -37,18 +36,12 @@ class Product extends Model
     protected function casts(): array
     {
         return [
-            'price' => 'decimal:2',
             'is_active' => 'boolean',
         ];
     }
 
-    public function shop(): BelongsTo
+    public function products(): HasMany
     {
-        return $this->belongsTo(Shop::class);
-    }
-
-    public function category(): BelongsTo
-    {
-        return $this->belongsTo(Category::class);
+        return $this->hasMany(Product::class);
     }
 }
