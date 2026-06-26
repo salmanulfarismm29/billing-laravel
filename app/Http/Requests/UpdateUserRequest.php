@@ -6,9 +6,19 @@ use App\Enums\UserRole;
 
 use App\Models\User;
 use App\Http\Requests\ApiFormRequest;
+use App\Models\Shop;
 
 class UpdateUserRequest extends ApiFormRequest
 {
+    protected function prepareForValidation(): void
+    {
+        if ($this->has('shop_ids') && is_array($this->shop_ids)) {
+            $this->merge([
+                'shop_ids' => array_map(fn($id) => is_string($id) ? Shop::resolveHashedId($id) : $id, $this->shop_ids)
+            ]);
+        }
+    }
+
     public function authorize(): bool
     {
         return $this->user()->role === UserRole::ADMIN;
