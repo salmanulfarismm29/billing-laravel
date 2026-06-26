@@ -18,14 +18,16 @@ class Setting extends Model
         'shop_id',
         'ask_customer_details',
         'ask_payment_method',
+        'show_bill_preview',
         'billing_calculator_prices',
     ];
 
     protected function casts(): array
     {
         return [
-            'ask_customer_details'     => 'boolean',
-            'ask_payment_method'       => 'boolean',
+            'ask_customer_details'      => 'boolean',
+            'ask_payment_method'        => 'boolean',
+            'show_bill_preview'         => 'boolean',
             // Stored as an ordered JSON array of selected price values (e.g. [10, 15, 25])
             'billing_calculator_prices' => 'array',
         ];

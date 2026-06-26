@@ -14,6 +14,8 @@ return new class extends Migration
             
             $table->boolean('ask_customer_details')->default(true);
             $table->boolean('ask_payment_method')->default(true);
+            // Whether to display a bill preview dialog after the cashier submits an order
+            $table->boolean('show_bill_preview')->default(false);
             
             $table->timestamps();
             $table->softDeletes();

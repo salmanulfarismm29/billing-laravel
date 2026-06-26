@@ -17,7 +17,8 @@ class UpdateSettingRequest extends ApiFormRequest
     {
         return [
             'ask_customer_details' => ['sometimes', 'boolean'],
-            'ask_payment_method' => ['sometimes', 'boolean'],
+            'ask_payment_method'   => ['sometimes', 'boolean'],
+            'show_bill_preview'    => ['sometimes', 'boolean'],
         ];
     }
 }
